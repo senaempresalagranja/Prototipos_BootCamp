@@ -1,0 +1,103 @@
+body{
+    background: grey;
+}
+
+.card{
+   background-color: #cc001bb6;
+   margin: 1em;
+   height: 180px;
+   width: 180px;
+}
+
+.card-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.tooltip-inner{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.603) !important;
+}
+
+.login{
+    height: 50px;
+    height: 50px;
+}
+
+
+/* Input File */
+.inputfile {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+
+.inputfile + label {
+    max-width: 80%;
+    font-size: 1.25rem;
+    font-weight: 700;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    cursor: pointer;
+    display: inline-block;
+    overflow: hidden;
+    padding: 0.625rem 1.25rem;
+}
+
+.inputfile + label svg {
+    width: 1em;
+    height: 1em;
+    vertical-align: middle;
+    fill: currentColor;
+    margin-top: -0.25em;
+    margin-right: 0.25em;
+}
+
+.newinputfile {
+    font-size:16px; 
+    font-weight:normal;
+    font-family: 'Lato';
+}
+
+.inputfile-3 + label {
+    color: #222733;
+}
+
+.inputfile-3:focus + label,
+.inputfile-3.has-focus + label,
+.inputfile-3 + label:hover {
+    color: #4cae4c;
+}
+
+@media only screen and (min-width: 768px) {
+    body{    
+        background-image: url(../imagenes/Mercacentro10.jpg);
+        background-repeat: no-repeat;
+        background-size: cover; 
+    }
+
+    .content{
+        height: 100vh;
+    }    
+    
+    .container{
+        height: 100%;
+    }
+    
+    nav{
+        
+        height: 10%;
+    }
+    .pqrs{
+        height: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+}
